@@ -1,4 +1,5 @@
 import './App.css';
+import { Link } from 'react-scroll';
 
 function App() {
   return (
@@ -26,7 +27,9 @@ function App() {
           Full-Stack Developer 
         </h1>
         <p className='reveal'>
-          <span className='cta cta-button'><a>Know more</a></span>
+          <span className='cta cta--button'>
+            <Link>Know more</Link>
+          </span>
         </p>
       </div>
     </div>
