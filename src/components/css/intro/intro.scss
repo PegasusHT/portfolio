@@ -20,20 +20,26 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: left;
+
+    @media (max-width:450px) {
+      padding-left: 5px;
+    }
   }
 
   .reveal {
     display:flex;
 
-    @media (max-width:400px) {
-      margin: auto;
-      width: 60%;
-      font-size: 20px;
+    @media (max-width:450px) {
+      margin-left: 27%;
+      margin-right: 18%;
+      font-size: 18px;
     }
   }
 
-  @media (max-width:400px) {
+  @media (max-width:450px) {
     text-align: center;
+    font-size: 4.5rem;
+    line-height: 2;
   }
 }
   
