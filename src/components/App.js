@@ -1,4 +1,4 @@
-import './css/App.css';
+import './css/App.scss';
 import Intro from './sections/intro/intro'
 import About from './sections/about/about';
 

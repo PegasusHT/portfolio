@@ -25,6 +25,15 @@
   .reveal {
     display:flex;
 
+    @media (max-width:400px) {
+      margin: auto;
+      width: 60%;
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width:400px) {
+    text-align: center;
   }
 }
   
