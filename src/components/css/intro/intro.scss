@@ -77,9 +77,6 @@
 
   &::after {
     background-image: linear-gradient(135deg,#009FFD,#2a4772);
-  //   @include respond(phone) {
-  //     background-image: none;
-  //   }
   }
 
   &:hover {
