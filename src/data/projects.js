@@ -19,8 +19,8 @@ export const projects = [
     Developed API requests  from React components to get and post Spring boot
      backend data and implemented them on the front end.
     `,
-    image: 'network',
-    liveLink: '',
+    image: 'baytree',
+    liveLink: 'https://www.youtube.com/watch?v=GUhqNADkwQ4',
     sourceLink: 'https://github.com/PegasusHT/Baytree',
   },
   {

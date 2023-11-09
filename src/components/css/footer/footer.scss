@@ -37,10 +37,10 @@
     .icons{
         color:white;
         display:inline-block;
-        transition: transform 0.3s;
+        transition: transform 1s;
 
         :hover{
-            animation: shake 0.5s;
+            animation: shake 1s;
         }
     }
 

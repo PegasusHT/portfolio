@@ -4,11 +4,13 @@ import {Tilt} from 'react-tilt';
 import React, { useEffect, useState } from 'react';
 import projects from '../../../data/projects';
 import eatsafe from '../../../images/eatsafe.png';
-import network from '../../../images/network.png'
+import network from '../../../images/network.png';
+import baytree from '../../../images/baytree.png';
 
 const imageSources = {
     eatsafe: eatsafe,
-    network: network
+    network: network,
+    baytree: baytree
 }
 
 const Projects = () => {
@@ -50,7 +52,9 @@ const Projects = () => {
                                     delay={1000}
                                     distance="30px"
                                 >
-                                <ProjectImage imageName={image}/>
+                                <ProjectImage 
+                                    imageName={image} liveLink={liveLink}
+                                />
                                 </Fade>
                             </Col>
                         </Row>
@@ -119,9 +123,9 @@ const getImageSource = (imageName) => {
     }
 }
 
-const ProjectImage = ({imageName}) => (
+const ProjectImage = ({imageName, liveLink}) => (
     <a
-    href={'#!'}
+    href={liveLink}
     target="_blank"
     aria-label="Project Link"
     rel="noopener noreferrer"
