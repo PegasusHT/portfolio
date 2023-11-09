@@ -74,6 +74,10 @@
 
             img {
                 height: 40vh;
+
+                @media (max-width:450px){
+                    height: 25vh;
+                }
             }
         }
     }

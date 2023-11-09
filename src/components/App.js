@@ -1,7 +1,9 @@
 import './css/App.scss';
 import Intro from './sections/intro/intro'
 import About from './sections/about/about';
-import Projects from './sections/projects/Projects'
+import Projects from './sections/projects/Projects';
+import Contact from './sections/contact/contact';
+import Footer from './sections/footer/footer';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Intro />
       <About />
       <Projects/>
+      <Contact />
+      <Footer />
     </div>
   );
 }

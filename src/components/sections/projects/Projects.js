@@ -62,7 +62,9 @@ const Projects = () => {
 }
 
 const Title = ({ title }) => (
-    <h2 className="projects-title">{title}</h2>
+    <Fade bottom duration={1000} delay={300} distance="0px">
+      <h2 className="projects-title">{title}</h2>
+    </Fade>
 );
 
 const ProjectInfo = ({isDesktop, isMobile, name, description, liveLink, sourceLink}) => {
@@ -107,15 +109,12 @@ const ProjectInfo = ({isDesktop, isMobile, name, description, liveLink, sourceLi
                         
                     </Row>    
                 </Fade>
-                
             </Col>
     )
 }
 
 const getImageSource = (imageName) => {
     for(let source in imageSources){
-        // const sourceName = Object.entries(source)[0];
-        console.log(imageSources[source])
         if(imageName === source) return imageSources[source]
     }
 }

@@ -1,0 +1,61 @@
+#contact {
+    background-color: #2e5a9c;
+    padding: 10rem 0 10rem 0;
+    color: white;
+
+    @media (max-width:450px){
+        padding-top: 7%;
+    }
+
+    @media (min-width:1000px){
+        clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .contact-wrapper {
+        margin-top: 3.2rem;
+        padding: 0 2rem;
+        backface-visibility: hidden;
+    
+        &__text {
+          margin-bottom: 2.5rem;
+        }
+    
+        &__text,
+        a {
+          font-size: 2.4rem;
+    
+            @media (max-width:450px){
+                font-size: 20px;
+            }
+        }
+    }
+
+    .contact-text{
+        margin-bottom: 2.5rem;
+        margin-top: 3.2rem;
+        font-size: 2.4rem;
+    
+        @media (max-width:450px){
+            font-size: 20px;
+        }
+    }
+}
+
+.cta-btn--resume {
+    color: white;
+    border: 2px solid white;
+    background-color: #2b497c;
+  
+    &::after {
+      background: white;
+    }
+  
+    &:hover {
+      color: #2e5a9c;
+      text-decoration: none;
+  
+      &::after {
+        width: 100%;
+      }
+    }
+}

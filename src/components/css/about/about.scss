@@ -4,6 +4,7 @@
     text-align: center;
     margin-left: 20px;
     color:white;
+    font-weight: bold;
 
     @media (max-width:450px){
         font-size: 30px;
@@ -52,10 +53,6 @@
             text-align: center;
             padding-top:10px;
         }
-
-        // @media (max-width:450px) {
-        //     padding-top:10px;
-        // }
         
         br {
             display: block;
