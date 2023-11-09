@@ -17,7 +17,7 @@ export const Contact = () => {
                 <Fade bottom duration={1000} delay={500} distance="0px">
                     <Row >
                         <Col className='contact-text'>
-                            <p>Would you to work with me? Awesome!</p>
+                            <p>Would you like to work with me? Awesome!</p>
                         </Col>
                         <Col className='contact-wrapper'>
                             <a

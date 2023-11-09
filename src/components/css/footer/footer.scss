@@ -1,0 +1,65 @@
+#footer {
+    background-color: #353232;
+    color: white;
+    padding: 4.8rem 0;
+    padding-bottom: 6rem;
+  
+    &__text {
+      color: darken(white, 50%);
+      font-size: 1.3rem;
+  
+      a {
+        color: darken(white, 50%);
+        font-size: 1.3rem;
+        transition: all 0.4s;
+        display: inline-block;
+        background-color: darkgray;
+  
+        &:hover,
+        &:active {
+          -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+        }
+      }
+    }
+
+    .linkedin{
+        margin-right: 7vw;
+        margin-top: 2vh;
+        color:white;
+        transition: transform 0.3s;
+
+        :hover{
+            animation: shake 0.5s;
+        }
+    }
+
+    .icons{
+        color:white;
+        display:inline-block;
+        transition: transform 0.3s;
+
+        :hover{
+            animation: shake 0.5s;
+        }
+    }
+
+    @keyframes shake {
+        0% {
+          transform: rotate(0);
+        }
+        25% {
+          transform: rotate(-5deg);
+        }
+        50% {
+          transform: rotate(5deg);
+        }
+        75% {
+          transform: rotate(-5deg);
+        }
+        100%{
+            transform: rotate(0);
+          }
+    }
+
+}

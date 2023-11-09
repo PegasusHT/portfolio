@@ -51,7 +51,7 @@ const Title = ({ title }) => (
 
 const ProfilePicture = () => (
     <Fade left duration={1000} delay={300} distance='10px'>
-        <img src={profile_pic} className='profile_pic' alt='profile picture' />
+        <img src={profile_pic} className='profile_pic' alt='profile' />
     </Fade> 
 )
 
