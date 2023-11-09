@@ -15,6 +15,7 @@
   z-index: -1;
   text-align: left;
 
+
   .name-color {
     background-image: linear-gradient(135deg,#009FFD,#2a4772);
     background-clip: text;
@@ -33,13 +34,19 @@
       margin-left: 27%;
       margin-right: 18%;
       font-size: 18px;
+      
+    }
+  }
+
+  .title {
+    @media (max-width:450px) {
+      line-height: 1.25;
     }
   }
 
   @media (max-width:450px) {
     text-align: center;
     font-size: 4.5rem;
-    line-height: 2;
   }
 }
   

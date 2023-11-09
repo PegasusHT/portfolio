@@ -1,6 +1,9 @@
 .section-title {
     font-size: 4vw;
     padding-top: 4vh;
+    text-align: center;
+    margin-left: 20px;
+    color:white;
 
     @media (max-width:450px){
         font-size: 30px;
@@ -29,7 +32,7 @@
             padding-right: 0vw;
             padding-left: 0vw;
         }
-    }
+    } 
 
     .div-content{
         width: 400px;
@@ -111,9 +114,4 @@
             height: 80vw;
         }
     }
-}
-
-h2{
-  padding: 10px 0 10px 0;  
-  color:white;
 }

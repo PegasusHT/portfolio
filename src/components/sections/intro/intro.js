@@ -22,7 +22,7 @@ const Intro = () => {
         <div className='welcome'>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
               <h1 className='title'>
-                Hello, I am <span className='name-color'>Jimmy Bui</span> <br/>
+                Hello, my name is <span className='name-color'>Jimmy Bui</span> <br/>
                 Full-Stack Developer 
               </h1>
           </Fade>

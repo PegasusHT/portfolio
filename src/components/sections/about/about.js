@@ -15,25 +15,28 @@ const About = () => {
                             <ProfilePicture />
                         </div>
                     </Col>
-                    <Col md={6} sm={12}>
-                        <div className='div-content'>
-                            <p className='content'> 
-                                <p> I am recent graduate full-stack developer who
-                                is passionate  
-                                 about building awesome website’s and application’s! I have 
-                                 currently learned and used HTML, CSS, SASS, Javascript, 
-                               React. On personal level, I am self-driven & hard working, 
-                                 I am able to adapt very quick and overall I am very curious.
-                                Also, I am really friendly who can fit in any team. </p>
-                            <br/>
-                            <p> My current skills  </p>
-                            <br/>
-                            <p> HTML, CSS, SASS, Javascript, React, NodeJs, SQL,
-                                Jest, Cucumber, Docker, GIT</p>
-                            </p>
-                        </div>
-                        
-                    </Col>
+                    <Fade right duration={1000} delay={300} distance='10px'>
+                        <Col md={6} sm={12}>
+                            <div className='div-content'>
+                                <p className='content'> 
+                                    <p> I am recent graduate full-stack developer who
+                                    is passionate  
+                                    about building awesome website’s and application’s! I have 
+                                    currently learned and used HTML, CSS, SASS, Javascript, 
+                                React. On personal level, I am self-driven & hard working, 
+                                    I am able to adapt very quick and overall I am very curious.
+                                    Also, I am really friendly who can fit in any team. </p>
+                                <br/>
+                                <p> My current skills  </p>
+                                <br/>
+                                <p> HTML, CSS, SASS, Javascript, React, NodeJs, SQL,
+                                    Jest, Cucumber, Docker, GIT</p>
+                                </p>
+                            </div>
+                            
+                        </Col>
+                    </Fade> 
+
                 </Row>
             </Container> 
         </section>
