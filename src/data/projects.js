@@ -7,8 +7,8 @@ export const projects = [
      using Java and Android Studio. Implemented map functions for
       browsing and searching using Google Maps API.`,
     image: 'eatsafe',
-    liveLink: '',
-    sourceLink: '',
+    liveLink: 'https://eatsafesurrey.netlify.app/',
+    sourceLink: 'https://github.com/PegasusHT/eatsafe',
   },
   {
     name: 'Baytree',
