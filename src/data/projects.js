@@ -2,10 +2,7 @@
 export const projects = [
   {
     name: 'EatSafe Surrey',
-    description: `Developed an Android app for searching and checking health inspection 
-    records and detailed information of hundred Surrey restaurants
-     using Java and Android Studio. Implemented map functions for
-      browsing and searching using Google Maps API.`,
+    description: `Utilizing React, Redux, and axios, this web application allows users to access and view health inspection reports for Surrey restaurants. I integrated tailwindcss, bootstrap, and styled-components to compare and utilize their features. The website also employs the Google Maps API to display a map of Surrey, with markers clustered together for improved readability.`,
     image: 'eatsafe',
     liveLink: 'https://eatsafesurrey.netlify.app/',
     sourceLink: 'https://github.com/PegasusHT/eatsafe',
