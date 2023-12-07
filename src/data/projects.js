@@ -8,6 +8,13 @@ export const projects = [
     sourceLink: 'https://github.com/PegasusHT/eatsafe',
   },
   {
+    name: 'Network - Twitter Clone',
+    description: `Created a Twitter-like social network website using Django and JavaScript. I also implemented API functions in Python and integrated them into the front-end. Hosted on Heroku with Postgres database.`,
+    image: 'network',
+    liveLink: 'https://cs50w-network-0f3d8c8d2d36.herokuapp.com/',
+    sourceLink: 'https://github.com/PegasusHT/Cs50w-Network',
+  },
+  {
     name: 'Baytree',
     description: `Collaborated with seven teammates to gather requirements
      from a real customer and designed the system of application.
@@ -20,16 +27,6 @@ export const projects = [
     liveLink: 'https://www.youtube.com/watch?v=GUhqNADkwQ4',
     sourceLink: 'https://github.com/PegasusHT/Baytree',
   },
-  {
-    name: 'Network - Twitter Clone',
-    description: `Designed a Twitter-like social network website for creating posts,
-     displaying, and following users by Django, JavaScript.
-    Created API functions using Python Django and implemented
-     them in the JavaScript front- end. `,
-    image: 'network',
-    liveLink: '',
-    sourceLink: 'https://github.com/PegasusHT/Cs50w-Network',
-  }
 ];
 
 export default projects
