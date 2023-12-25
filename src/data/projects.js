@@ -1,6 +1,13 @@
 
 export const projects = [
   {
+    name: 'ChatMate',
+    description: `A fullstack chat app built using the MERN stack. Its features, including online indicators, file uploads, and auto-scrolling, are all seamlessly integrated with websockets and robust authentication systems.`,
+    image: 'chatmate',
+    liveLink: 'https://chatmate-client.onrender.com/',
+    sourceLink: 'https://github.com/PegasusHT/ChatMate',
+  },
+  {
     name: 'EatSafe Surrey',
     description: `Utilizing React, Redux, and axios, this web application allows users to access and view health inspection reports for Surrey restaurants. I integrated tailwindcss, bootstrap, and styled-components to compare and utilize their features. The website also employs the Google Maps API to display a map of Surrey, with markers clustered together for improved readability.`,
     image: 'eatsafe',

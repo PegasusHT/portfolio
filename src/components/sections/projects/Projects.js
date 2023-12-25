@@ -6,11 +6,13 @@ import projects from '../../../data/projects';
 import eatsafe from '../../../images/eatsafe.png';
 import network from '../../../images/network.png';
 import baytree from '../../../images/baytree.png';
+import chatmate from '../../../images/chatmate.png';
 
 const imageSources = {
+    chatmate: chatmate,
     eatsafe: eatsafe,
     network: network,
-    baytree: baytree
+    baytree: baytree,
 }
 
 const Projects = () => {

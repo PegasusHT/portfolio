@@ -28,7 +28,7 @@ const About = () => {
                                 <br/>
                                 <p> My current skills  </p>
                                 <br/>
-                                <p> Javascript, HTML/CSS, Tailwind Css, React, NodeJs, PostgreSQL,
+                                <p> Javascript, HTML/CSS, Tailwind Css, React, NodeJs, Express, PostgreSQL, MongoDB,
                                     Jest, Cucumber, Selenium, Heroku, AWS, Docker, Git</p>
                                 </p>
                             </div>
